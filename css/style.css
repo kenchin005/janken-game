@@ -1,0 +1,119 @@
+.aite{
+    text-align: center;
+    
+}
+
+.jibun {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.kekka{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+    color: red;
+    font-size: 21px;
+}
+
+.game-start{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+/* 
+.game-start img:hover{
+    opacity: 0.0;
+} */
+
+
+/* .waku{
+    width: 500px;
+    height: 900px;
+    background: pink;
+    margin: 0 auto;
+} */
+
+.waku {
+    width: 500px;
+    height: 515px;
+    background: pink;
+    margin: 30px auto;
+    background-image: url(../img/枠桜.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+/* .janken-game img{
+    width: 50%;
+} */
+
+.janken-game{
+    width: 500px;
+    height: 900px;
+}
+
+
+.guu img{
+width: 100%;
+}
+
+.choki img{
+width: 100%;
+}
+
+.paa img{
+width: 100%;
+}
+
+.guu{
+    width: 82px;
+    height: 82px;
+    background: yellow;
+}
+
+.choki{
+    width: 80px;
+    height: 94px;
+    background: yellow;
+}
+
+.paa{
+    width: 87px;
+    height: 87px;
+    background: yellow;
+}
+
+.j-text{
+    text-align: center;
+    padding-top: 27px;
+}
+.a-text{
+    text-align: center;
+}
+
+.rogo{
+    padding-top: 230px;
+}
+
+
+.guu img:hover{
+ opacity: 0.5;
+    }
+
+.choki img:hover{
+    opacity: 0.5;
+    }
+
+.paa img:hover{
+    opacity: 0.5;
+    }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- ↓英語か日本語 -->
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- <h1 id="a">jqueryの動きを確認</h1>
+<div class="b">クリックの練習</div> -->
+
+
+
+
+<!-- じゃんけんゲーム -->
+
+<div class="waku">
+
+    <div class="game-start">
+        <p class="rogo"><img src="img/ゲームスタートロゴ.jpg" alt="" width=50% ></p>
+    <!-- <img src="img/ゲームスタートロゴ.jpg" onmouseover="this.src='img/ロゴ2'" onmouseout="this.src='img/ゲームスタートロゴ.jpg'"> -->
+    </div>
+
+
+
+    <div class="janken-game">
+        <h1 class="a-text">相手</h1>
+        <!-- 相手 -->
+        <div class="aite">
+            
+            <img src="img/グー.png" alt="">
+        </div>
+
+        <div class="kekka">
+            じゃんけん！！
+        </div>
+
+
+
+        <!-- 自分がグーの場合 -->
+        <div class="jibun">
+
+            <div class="guu">
+                <img src="img/グー.png" alt="">
+                
+            </div>
+
+            <!-- チョキの場合 -->
+            <div class="choki">
+                <img src="img/チョキ.png" alt="">
+            </div>
+
+            <!-- パーの場合 -->
+            <div class="paa">
+                <img src="img/パー.png" alt="">
+            </div>
+            
+        </div>
+        <h1 class="j-text">自分</h1　clas>
+    </div>
+
+</div>
+
+
+<!-- 音声データ -->
+<div class="voice">
+    <audio id="saisho" preload="auto" src="voice/最初はグー！.mp3" type="audio/mp3">
+       
+    </audio>
+    <audio id="jankenpon" src="voice/じゃんけんぽん！.mp3" type="audio/mp3"></audio>
+
+</div>
+
+
+
+
+<!-- じゃんけんゲーム -->
+
+<!-- ↓スクリプトをひもづける -->
+
+<!-- ｊｓのうえにjqをはる.逆だとエラーになるreffarence -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="app.js"></script>
+    
+</body>
+</html>
